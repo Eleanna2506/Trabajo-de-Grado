@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.pedidosTexto, .pedidosBotones{
+    width: 30%;
+    display: flex;
+    flex-direction: column;   
+    height: auto;
+}
+.pedidosBotones{
+    background-color: #d8d8d8;
+    
+}
+.pedidosBotones button{
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.consultarPedido{
+    display: none;
+}
+.realizarPedido{
+    display: none;
+}
